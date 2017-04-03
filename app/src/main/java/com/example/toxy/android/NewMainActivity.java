@@ -3,7 +3,7 @@ package com.example.toxy.android;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
+import android.widget.TextView;
 
 
 public class NewMainActivity extends AppCompatActivity {
@@ -13,8 +13,23 @@ public class NewMainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_new_main);
     }
-    Button button1 = (Button) findViewById(R.id.button1);
-    Button button2 = (Button) findViewById(R.id.button2);
-    Button button3 = (Button) findViewById(R.id.button3);
 
+    public void button1_action(View target){
+        TextView textView = (TextView) findViewById(R.id.textView);
+        textView.setText("Wciśnięto przycisk1");
+    }
+
+    public void button2_action(View target){
+        TextView textView = (TextView) findViewById(R.id.textView);
+        textView.setText("Wciśnięto przycisk2");
+    }
+
+    public void button3_action(View target){
+        TextView textView = (TextView) findViewById(R.id.textView);
+        textView.setText("Wciśnięto przycisk3");
+    }
+
+    public void submit_action(View target){
+
+    }
 }

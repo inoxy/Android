@@ -21,17 +21,20 @@
         android:layout_gravity="left"
         android:layout_marginLeft="30dp"
         android:text="Button 1"
+        android:onClick="button1_action"
         android:id="@+id/button1"/>
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Button 2"
+        android:onClick="button2_action"
         android:layout_gravity="center"
 
         android:id="@+id/button2"/>
 
     <Button
         android:id="@+id/button3"
+        android:onClick="button3_action"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="right"
@@ -76,6 +79,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Submit"
+        android:onClick="submit_action"
         />
     <TextView
         android:layout_width="wrap_content"
