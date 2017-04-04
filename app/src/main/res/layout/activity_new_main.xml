@@ -54,6 +54,7 @@
                 android:layout_column="1"/>
             <EditText
                 android:width="200px"
+                android:id="@+id/imie"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"/>
         </TableRow>
@@ -70,6 +71,7 @@
                 android:layout_column="1"/>
             <EditText
                 android:width="200px"
+                android:id="@+id/nazwisko"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"/>
         </TableRow>
@@ -84,6 +86,8 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textSize="50px"
+        android:layout_marginStart="130dp"
         android:text=""
         android:id="@+id/name"/>
 </LinearLayout>

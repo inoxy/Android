@@ -1,8 +1,11 @@
 package com.example.toxy.android;
 
+import android.content.Context;
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.EditText;
 import android.widget.TextView;
 
 
@@ -30,6 +33,15 @@ public class NewMainActivity extends AppCompatActivity {
     }
 
     public void submit_action(View target){
+        TextView textView = (TextView) findViewById(R.id.name);
+        EditText imie = (EditText) findViewById(R.id.imie);
+        EditText nazwisko = (EditText) findViewById(R.id.nazwisko);
+        textView.setText(imie.getText() + " " + nazwisko.getText());
+
+        Context context;
+        context = getApplicationContext();
+        Intent intent = new Intent(context,panda.class);
+        startActivity(intent);
 
     }
 }
