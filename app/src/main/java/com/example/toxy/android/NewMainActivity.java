@@ -18,8 +18,13 @@ public class NewMainActivity extends AppCompatActivity {
     }
 
     public void button1_action(View target){
+        Context context;
+        context = getApplicationContext();
+        Intent intent = new Intent(context,panda.class);
+        startActivity(intent);
+
         TextView textView = (TextView) findViewById(R.id.textView);
-        textView.setText("Wciśnięto przycisk1");
+        textView.setText("Pandy są 7/7");
     }
 
     public void button2_action(View target){
@@ -37,11 +42,6 @@ public class NewMainActivity extends AppCompatActivity {
         EditText imie = (EditText) findViewById(R.id.imie);
         EditText nazwisko = (EditText) findViewById(R.id.nazwisko);
         textView.setText(imie.getText() + " " + nazwisko.getText());
-
-        Context context;
-        context = getApplicationContext();
-        Intent intent = new Intent(context,panda.class);
-        startActivity(intent);
 
     }
 }
