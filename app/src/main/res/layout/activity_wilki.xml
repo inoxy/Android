@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.toxy.android.wilki">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Powrot"
+        android:onClick="powrot"
+        android:layout_gravity="bottom"
+        android:id="@+id/back"/>
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="192dp"
+        android:id="@+id/wilki"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+
+</LinearLayout>

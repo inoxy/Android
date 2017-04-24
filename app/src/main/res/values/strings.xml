@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Apka</string>
+    <string-array name="wilki">
+        <item>Wilk Biały</item>
+        <item>Wilk Szary</item>
+        <item>Inny Wilk</item>
+    </string-array>
 </resources>

@@ -28,8 +28,13 @@ public class NewMainActivity extends AppCompatActivity {
     }
 
     public void button2_action(View target){
+        Context context;
+        context = getApplicationContext();
+        Intent intent = new Intent(context,wilki.class);
+        startActivity(intent);
+
         TextView textView = (TextView) findViewById(R.id.textView);
-        textView.setText("Wciśnięto przycisk2");
+        textView.setText("Kiedyś byłem poszukiwaczem przygód jak ty, ale później dostałem strzałą w kolano");
     }
 
     public void button3_action(View target){

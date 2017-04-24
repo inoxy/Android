@@ -16,7 +16,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".panda"></activity>
+        <activity android:name=".panda" />
+        <activity android:name=".wilki"></activity>
     </application>
 
 </manifest>
