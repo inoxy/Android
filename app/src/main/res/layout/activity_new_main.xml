@@ -51,11 +51,13 @@
                 android:layout_height="wrap_content"
                 android:layout_width="wrap_content"
                 android:layout_column="1"/>
+
             <EditText
-                android:width="200px"
                 android:id="@+id/imie"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content"
+                android:width="200px"
+                android:text="Harry" />
         </TableRow>
     </TableLayout>
     <TableLayout
@@ -68,11 +70,13 @@
                 android:layout_height="wrap_content"
                 android:layout_width="wrap_content"
                 android:layout_column="1"/>
+
             <EditText
-                android:width="200px"
                 android:id="@+id/nazwisko"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content"
+                android:width="200px"
+                android:text="Pota" />
         </TableRow>
     </TableLayout>
 
@@ -90,4 +94,28 @@
         android:layout_gravity="center"
         android:text=""
         android:id="@+id/name"/>
+
+    <Button
+        android:id="@+id/button4"
+        android:onClick="button4_action"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Odtwarzacz muzyki" />
+    <Button
+        android:id="@+id/button5"
+        android:onClick="button5_action"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Dyktafon"
+    />
+    <Button
+        android:id="@+id/button6"
+        android:onClick="button6_action"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="GPS"
+    />
 </LinearLayout>

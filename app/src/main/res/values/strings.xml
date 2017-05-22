@@ -5,4 +5,9 @@
         <item>Wilk Szary</item>
         <item>Inny Wilk</item>
     </string-array>
+    <string-array name="opisWilka">
+        <item>jeden z największych podgatunków wilka szarego, drapieżnego ssaka z rodziny psowatych (Canidae). Charakteryzuje się grubą, białą sierścią i to jest jego główna cecha wyróżniająca.</item>
+        <item>gatunek drapieżnego ssaka z rodziny psowatych (Canidae), zamieszkującego lasy, równiny, tereny bagienne oraz góry Eurazji i Ameryki Północnej. Gatunek o skłonnościach terytorialnych. Zwykle terytorium zajmowane przez watahę to 100–300 km²[10], ale wielkość ta zależy od dostępności pokarmu i terenu.</item>
+        <item>To jest tak na prawde kojot</item>
+    </string-array>
 </resources>

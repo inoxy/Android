@@ -18,6 +18,9 @@
         </activity>
         <activity android:name=".panda" />
         <activity android:name=".wilki"></activity>
+        <activity android:name=".Dyktafon"></activity>
+        <activity android:name=".GPS"></activity>
+        <activity android:name=".Odtwarzacz_Muzyki"></activity>
     </application>
 
 </manifest>

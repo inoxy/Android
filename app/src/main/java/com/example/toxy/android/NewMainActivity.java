@@ -37,6 +37,36 @@ public class NewMainActivity extends AppCompatActivity {
         textView.setText("Kiedyś byłem poszukiwaczem przygód jak ty, ale później dostałem strzałą w kolano");
     }
 
+    public void button4_action(View target){
+        Context context;
+        context = getApplicationContext();
+        Intent intent = new Intent(context,Odtwarzacz_Muzyki.class);
+        startActivity(intent);
+
+        TextView textView = (TextView) findViewById(R.id.textView);
+        textView.setText("Kiedyś byłem poszukiwaczem przygód jak ty, ale później dostałem strzałą w kolano");
+    }
+
+    public void button5_action(View target){
+        Context context;
+        context = getApplicationContext();
+        Intent intent = new Intent(context,Dyktafon.class);
+        startActivity(intent);
+
+        TextView textView = (TextView) findViewById(R.id.textView);
+        textView.setText("Wracam z dyktafonu lol");
+    }
+
+    public void button6_action(View target){
+        Context context;
+        context = getApplicationContext();
+        Intent intent = new Intent(context,GPS.class);
+        startActivity(intent);
+
+        TextView textView = (TextView) findViewById(R.id.textView);
+        textView.setText("Kiedyś byłem poszukiwaczem przygód jak ty, ale później dostałem strzałą w kolano");
+    }
+
     public void button3_action(View target){
         TextView textView = (TextView) findViewById(R.id.textView);
         textView.setText("Wciśnięto przycisk3");
@@ -49,4 +79,6 @@ public class NewMainActivity extends AppCompatActivity {
         textView.setText(imie.getText() + " " + nazwisko.getText());
 
     }
+
+
 }
