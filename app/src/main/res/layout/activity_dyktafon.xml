@@ -12,5 +12,22 @@
         android:layout_gravity="center"
         android:textSize="45dp"/>
 
+    <Button
+        android:layout_width="177dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:id="@+id/start_stop"
+        android:text="Nagrywanie"
+        android:onClick="Start_Stop_Button"
+        />
+
+    <Button
+        android:layout_width="177dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/play"
+        android:text="Odtwórz"
+        android:onClick=""/>
 
 </LinearLayout>

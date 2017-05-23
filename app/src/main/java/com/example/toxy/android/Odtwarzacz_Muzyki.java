@@ -61,21 +61,5 @@ public class Odtwarzacz_Muzyki extends AppCompatActivity{
         btnNewCustomAlertDialog.setOnClickListener(listener);
     }
 
-    @Override
-    protected Dialog onCreateDialog(int id) {
-        switch (id) {
-            case ALERT_DIALOG_PLAIN:
-                return createPlainAlertDialog();
-            case ALERT_DIALOG_BUTTONS:
-                return createAlertDialogWithButtons();
-            case ALERT_DIALOG_LIST:
-                return createAlertDialogWithList();
-            case CUSTOM_ALERT_DIALOG:
-                return createCustomAlertDialog();
-            default:
-                return null;
-
-        }
-    }
 
 }

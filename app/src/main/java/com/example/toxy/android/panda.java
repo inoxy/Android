@@ -18,7 +18,7 @@ public class panda extends AppCompatActivity {
         setContentView(R.layout.activity_panda);
     }
 
-    int [] zdjecia={R.drawable.panda, R.drawable.panda2, R.drawable.panda3, R.drawable.panda4, R.drawable.panda5};
+//    int [] zdjecia={R.drawable.panda, R.drawable.panda2, R.drawable.panda3, R.drawable.panda4, R.drawable.panda5};
     int licznik=0;
 
 
@@ -30,17 +30,17 @@ public class panda extends AppCompatActivity {
     }
 
     public void prev(View v){
-        --licznik;
-        if (licznik==-1)
-            licznik=4;
-        ImageView image = (ImageView) findViewById(R.id.imageView);
-        image.setImageResource(zdjecia[licznik]);
+//        --licznik;
+//        if (licznik==-1)
+//            licznik=4;
+//        ImageView image = (ImageView) findViewById(R.id.imageView);
+//        image.setImageResource(zdjecia[licznik]);
     }
     public void next (View view){
-        ++licznik;
-        if (licznik==5)
-            licznik=0;
-        ImageView image = (ImageView) findViewById(R.id.imageView);
-        image.setImageResource(zdjecia[licznik]);
+//        ++licznik;
+//        if (licznik==5)
+//            licznik=0;
+//        ImageView image = (ImageView) findViewById(R.id.imageView);
+//        image.setImageResource(zdjecia[licznik]);
     }
 }
