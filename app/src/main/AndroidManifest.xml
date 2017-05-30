@@ -19,9 +19,10 @@
         <activity android:name=".panda" />
         <activity android:name=".wilki"></activity>
         <activity android:name=".Dyktafon"></activity>
-        <activity android:name=".GPS"></activity>
+        <activity android:name=".GPS"><uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /></activity>
         <activity android:name=".Odtwarzacz_Muzyki"></activity>
     </application>
+
     <uses-permission android:name ="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name ="android.permission.RECORD_AUDIO" />
 </manifest>
